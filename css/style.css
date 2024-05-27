@@ -333,4 +333,10 @@
   color: #e67e22;
 }
 
+/* ********************** */
 /* Testimonial section */
+/* ********************** */
+
+.section-testimonials {
+  padding: 9.6rem 0;
+}
