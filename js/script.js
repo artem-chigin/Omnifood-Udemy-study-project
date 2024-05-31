@@ -1,3 +1,12 @@
+// Make mobile nav work
+
+const headerEl = document.querySelector(".header");
+const btnNavEl = document.querySelector(".btn-mobile-nav");
+
+btnNavEl.addEventListener("click", function () {
+  headerEl.classList.toggle("nav-open");
+});
+
 // Set current Year automaticly
 
 const yearEl = document.querySelector(".year");
